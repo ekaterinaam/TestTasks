@@ -13,9 +13,9 @@ public class Main {
         };
         String subtask3 = input.replace(" ", "*"); // замена символа в изначальной строке
         System.out.println(subtask3);
-        String subtask4 = input.toUpperCase();
+        String subtask4 = input.toUpperCase(); // вывод строки всеми строчными
         System.out.println(subtask4);
-        String subtask5 = input.substring(5,10);
+        String subtask5 = input.substring(5,10); // вывод символов с 5го по 10й
         System.out.println(subtask5);
     }
 }
